@@ -1,0 +1,240 @@
+html { 
+  /*background: url(images/bg.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+    /*font-family: "Andalus";
+    /*background-color: #796AD2; */
+	/*background-color: #000033;*/
+	background-color: grey;
+	
+	/*height: 100%;*/
+}
+#header {
+	/*width: 98%;*/
+    text-align:left;
+    padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	/*min-height: 240px;
+	/*background:url(images/BIClogo.gif) no-repeat top right;
+	/*background-size: 33% 33%;
+	/*background-color: #606060;*/
+}
+.header-image {
+	/*position: absolute;
+    
+	bottom:0;
+	max-height:1000px;
+	overflow:hidden;
+	left:0;
+    right:0;
+	z-index:-1;*/
+	margin-top:15px;
+	min-height: 160px;
+	height:auto;
+	background:url(images/BIClogo.gif) no-repeat top right;
+	/*background-size: cover;
+	/*background-color: #606060;*/
+}
+
+h1 {
+    font-family: "Andalus";
+    color: #FFFFF0;
+    font-size: 30px;
+}
+h2 {
+	font-family: "Andalus";
+    color: #FFFFF0;
+    font-size: 16px;
+}
+#h3 {
+
+    color: #000000;
+    font-size: 18px;
+	display:none;
+}
+
+.menu{
+	padding-left:  0px;
+    padding-right: 0px;
+}
+
+
+.main {
+	padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+	/*width:65%;*/
+    background-color: #C0C0C0;	/*#352D66;*/
+    border-radius: 5px 5px 5px 5px;
+	text-align:center;
+	color: #000000;
+	
+}
+.carousel-inner > .item > img,
+
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+	}
+	
+.main:after {
+	content:"";
+	display: block;
+	height: 100px;
+}
+#aside {
+	margin-bottom: 20px;
+	margin-top: 20px;
+    padding: 15px;
+    padding-left:  15px;
+    padding-right: 15px;
+	width:96%;
+	background-color:  #FFFFFF;
+    /*background-color:  #918BB9;*/
+    border-radius: 5px 5px 5px 5px;
+	text-align:center;
+	color: #000000;
+	
+
+}
+.section {
+    width:100%;
+    float:center;
+    /*padding-right: 15px;*/
+	border-radius: 5px 5px 5px 5px;
+	text-align:left;
+	max-height: 470px;
+	height:auto;
+}
+#article {
+    padding: 10px;
+    margin-right:0px;
+	/*width:25%;*/
+	width:100%;
+    background-color: #C0C0C0; /*#40367B;*/
+    border-radius: 0 0 5px 5px;
+	text-align:center;
+	float: right;
+	-webkit-animation: mymove 8s infinite;
+	animation: mymove 8s infinite;
+	color: #000000;
+}
+@-webkit-keyframes mymove {
+    50% {background-color: #FFFFFF;}
+}
+.figure{
+	float: center;
+}
+
+#pic{
+    transition: all 2s;
+
+}
+#pic:hover{
+    transform: scale(1) translate(300px, 300px) rotate(10deg);
+}
+
+img{
+	box-shadow: 3px 3px 5px 1px #cccccc;
+}
+
+.more {
+display: none;
+border-bottom: 1px solid #444444;
+}
+a.showLink, a.hideLink {
+color: #404040;
+background: transparent;
+}
+
+a.hideLink{
+background: transparent;
+}
+a.showLink:hover, a.hideLink:hover{
+border-bottom:1 px dotted #363636;
+}
+
+@media(max-width: @screen-xs){
+body{font-size: 10px;}
+}
+
+@media(max-width: @screen-sm){
+body{font-size: 14px;}
+}
+
+#map-canvas {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+  }
+  
+table {
+    width:100%;
+}
+
+table, th , td {
+    border: 1px solid light grey;
+    border-collapse: collapse;
+    padding: 10px;
+	table-layout: auto;
+}
+
+th {
+    text-align: left;
+}
+
+table tr:nth-child(odd) {
+    background-color: #white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+table tr:nth-child(even) {
+    background-color: 	#C0C0C0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 20px;
+
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 6px;
+}
+
+ul#menu li a {
+    background-color: #978CDC;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFFFF0;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: #887BD7;
+}
+#footer{ 
+	
+	padding: 5px;
+	position: auto;
+	bottom: 0px;
+	text-align: bottom left;
+	width: 100%;
+	height: 150px;
+	color:white;
+    font-family: Andalus;
+	/*background:url(images/bannerBIC.jpg) no-repeat bottom right;
+	background-color: #40367B;*/
+
+}
+
