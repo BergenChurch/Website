@@ -1,0 +1,24 @@
+
+ul#menu1{
+    padding: 0;
+    margin-bottom: 20px;
+	
+}
+
+ul#menu1 li {
+    display: inline;
+    margin-right: 6px;
+	float: left;
+}
+
+ul#menu1 li a {
+    background-color: #5548A4;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #D2CEF0;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#menu1 li a:hover {
+    color: white;
+    background-color: #978CDC;
